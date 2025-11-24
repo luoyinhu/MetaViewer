@@ -1,2 +1,36 @@
-# MetaViewer
-MetaViewer— A premium 3D-styled web tool that extracts and displays image metadata (EXIF) in a clean, elegant UI. Upload any image and instantly view all available details like camera model, resolution, timestamps, GPS info, and more. Built with HTML, CSS, JS — fully client-side and privacy-safe.
+# 🌌 Flyzone84 — MetaViewer  
+### **Premium 3D Image Metadata Viewer**
+
+MetaViewer is a stylish, premium-quality web application designed by **Flyzone84** that allows users to upload an image and instantly view all available metadata (EXIF data).  
+Built with a modern 3D-styled interface, smooth UI components, and clean result formatting — it is helpful for **photographers, cybersecurity analysts, digital forensics learners, and normal users**.
+
+---
+
+## ✨ Features
+
+✔ **3D Modern UI** — Beautiful, futuristic interface with premium styling  
+✔ **Client-Side Processing** — Your images never leave your device  
+✔ **Instant Metadata Extraction**  
+✔ **Shows details like:**  
+- Camera model  
+- Resolution  
+- GPS coordinates  
+- Timestamps  
+- Software  
+- Orientation  
+- Color format  
+- More (depends on image)
+
+✔ **Premium Result Cards** — Clean, organized, well-presented metadata  
+✔ **Fast & Lightweight**  
+✔ **Fully Open-Source**  
+
+---
+
+## 🚀 Live Demo  
+👉 **Website Link:**  
+*(Add your GitHub Pages link here)*  
+`https://yourusername.github.io/your-repo-name/`
+
+---
+
