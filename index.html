@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MetaViewer</title>
+<title>FlyzoneX MetaViewer</title>
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -160,7 +160,7 @@ footer {
 
 <div class="container">
 
-  <h1>MetaViewer</h1>
+  <h1>FlyzoneX MetaViewer</h1>
   <p class="subtitle">Analyze image metadata in a clean, modern, premium way</p>
 
   <label for="imageInput">
@@ -190,6 +190,24 @@ footer {
 </div>
 
 <script>
+
+// NEW PART: Show preview instantly when user selects image
+document.getElementById("imageInput").addEventListener("change", function() {
+  const file = this.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const previewBox = document.getElementById("previewBox");
+    const previewImage = document.getElementById("previewImage");
+
+    previewBox.style.display = "block";
+    previewImage.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+});
+
+// MAIN FUNCTION
 function readMetadata() {
   const fileInput = document.getElementById("imageInput");
   const previewBox = document.getElementById("previewBox");
@@ -211,10 +229,6 @@ function readMetadata() {
     const img = new Image();
     img.src = e.target.result;
 
-    // Show preview
-    previewBox.style.display = "block";
-    document.getElementById("previewImage").src = img.src;
-
     img.onload = function() {
       
       // Basic Info
@@ -234,11 +248,9 @@ function readMetadata() {
         const allMeta = EXIF.getAllTags(this);
 
         if (Object.keys(allMeta).length > 0) {
-
           for (let key in allMeta) {
             createCard(key, allMeta[key]);
           }
-
         } else {
           createCard("EXIF Data", "No metadata found");
         }
